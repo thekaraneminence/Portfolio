@@ -1,0 +1,169 @@
+// Global styling for this template
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+// Typography
+.text-white-75 {
+  color: fade-out($white, .25);
+}
+
+// Custom horizontal rules
+hr.divider {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: $primary;
+}
+
+hr.light {
+  border-color: $white;
+}
+
+// Button restyling
+.btn {
+  font-family: $font-family-sans-serif;
+}
+
+.btn-xl {
+  padding: 1.25rem 2.25rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10rem;
+}
+
+// Page section padding
+.page-section {
+  padding: 8rem 0;
+}
+
+
+
+.section-skill {
+  background:#efeded url("../img/about-bg.jpg") no-repeat fixed center;
+  background-size:cover;
+  padding:80px 0;
+}
+.section-subheading-nobg {
+  margin-top:25px;
+  font-size:19px;
+  text-align:center;
+  text-transform:uppercase;
+  font-weight:400;
+  margin-bottom:80px;
+  letter-spacing:1;
+}
+.skill {
+  border-radius:4px;
+  width:100%;
+  display: inline-block;
+  text-align: center;
+}
+.pad30 {
+  padding:0 30px;
+}
+.skill .name {
+  background-color:#424242;
+  display: inline-block;
+  margin: 0 20px 20px 0;
+  z-index:100;
+  border-radius:4px 4px 4px 4px;
+  -webkit-border-radius:4px 4px 4px 4px;
+}
+
+.skill .label {
+  font-size:18px;
+  text-transform:uppercase;
+  color:#fff;
+  text-align:center;
+  font-weight:400;
+  letter-spacing:1px;
+  margin: 20px 25px;
+  float:left;
+}
+.skill-heading {
+  margin:0px;
+  padding:0px;
+  font-size:18px;
+  letter-spacing:1px;
+  color:#fa6862;
+  padding-top:20px;
+}
+.skill-subheading {
+  margin:0px;
+  padding:0px;
+  color:#adadad;
+  font-size:14px;
+  font-weight:300;
+  margin-top:10px;
+}
+.skill p {
+  padding:25px 0px;
+  font-size:15px;
+  line-height:22px;
+  color:#35353c;
+}
+.skillnews {
+  background-color:#fff;
+  min-height:80px;
+  text-align:center;
+  padding-top:20px;
+  padding-bottom:20px;
+  margin-top:70px;
+  border-radius:4px;
+}
+.skillnews h2 {
+  margin:0px;
+  padding:0px;
+  color:#fa6862;
+  font-size:28px;
+  text-transform:uppercase;
+}
+.skillnews h3 {
+  padding:0px;
+  margin:0px;
+  color:#292c34;
+  margin-top:10px;
+  font-weight:400;
+  font-size:18px;
+  letter-spacing:0.5;
+}
+.arrow {
+  border-color:transparent transparent transparent #424242;
+  border-style:solid;
+  border-width:9px;
+  width:0;
+  height:0;
+  float:right;
+  margin-right:-18px;
+  margin-top:75px;
+  position:relative;
+}
+.chart {
+  position:relative;
+  display:inline-block;
+  width:110px;
+  height:110px;
+  margin-top:40px;
+  text-align:center;
+}
+.chart canvas {
+  position:absolute;
+  top:0;
+  left:0;
+}
+.percent {
+  display:inline-block;
+  line-height:110px;
+  z-index:2;
+  font-size:25px;
+  color:#3e3e3e;
+}
+.percent:after {
+  content:'%';
+  margin-left:0.1em;
+  font-size: .8em;
+}
